@@ -1,0 +1,52 @@
+.tic-tac-toe{
+    width: 240px;
+    font-family: Arial;
+    padding:5%;
+}
+
+.board button {
+    background: #3498db;
+    color: #ffffff;
+    border: solid #1f628d 2px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    font-size: 200%;
+}
+.board button:hover {
+    background: #3cb0fd;
+}
+
+.board button:disabled{
+    cursor: default;
+    opacity: 0.8;
+}
+
+.cell.first{
+    clear: both;
+}
+
+.status-box{
+    text-align: center;
+    clear: both;
+    padding: 5%;
+}
+
+.status-box button{
+    border-radius: 28px;
+    color: #ffffff;
+    border: none;
+    padding: 3% 6%;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+.game-state{
+    color: #01579B;
+    font-size: 20px;
+    padding: 5%;
+}
